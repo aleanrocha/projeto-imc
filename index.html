@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Calcule seu IMC online de forma simples e saiba como está sua saúde. Descubra seu índice de massa corporal e tome medidas para uma vida mais equilibrada.">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="./js/scripts.js" defer></script>
+    <title>Calculadora de IMC</title>
+  </head>
+  <body>
+    <main id="container">
+      <section id="calc-container">
+        <h1>Calculadora de <abbr title="índice de Massa Corporea">IMC</abbr></h1>
+        <form id="imc-form">
+          <div id="form-inputs">
+            <div class="form-control">
+              <label for="iheight">Altura:</label>
+              <input type="text" name="height" id="iheight" placeholder="Exemplo: 1,70">
+            </div>
+            <div class="form-control">
+              <label for="iweight">Peso:</label>
+              <input type="text" name="weight" id="iweight" placeholder="Exemplo: 69,5">
+            </div>
+          </div>
+          <div id="action-control">
+            <button type="button" id="calc-btn">Calcular</button>
+            <button type="button" id="clear-calc-btn">Limpar</button>
+          </div>
+        </form>
+        <p>⚖️ 2023</p>
+      </section>
+      <section id="result-container">
+        <p id="imc-number">Seu IMC: <span></span></p>
+        <p id="imc-info">Situação atual: <span></span></p>
+        <h2>Confira as classificações:</h2>
+        <div id="imc-table">
+          <div class="table-header">
+            <h3>IMC</h3>
+            <h3>Classificação</h3>
+            <h3>Obesidade</h3>
+          </div>
+        </div>
+        <button type="button" id="back-btn">Voltar</button>
+      </section>
+    </main>
+  </body>
+</html>

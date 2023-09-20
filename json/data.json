@@ -1,0 +1,44 @@
+[
+  {
+    "min": 0,
+    "max": 18.4,
+    "classification": "Abaixo de 18,5",
+    "info": "Magreza",
+    "obesity": "0"
+  },
+  {
+    "min": 18.5,
+    "max": 24.9,
+    "classification": "Entre 18,5 e 24,9",
+    "info": "Peso ideal",
+    "obesity": "0"
+  },
+  {
+    "min": 25.0,
+    "max": 29.9,
+    "classification": "Entre 25,0 e 29,9",
+    "info": "Sobrepeso",
+    "obesity": "0"
+  },
+  {
+    "min": 30.0,
+    "max": 34.9,
+    "classification": "Entre 30,0 e 34,9",
+    "info": "Obesidade",
+    "obesity": "I"
+  },
+  {
+    "min": 35.0,
+    "max": 39.9,
+    "classification": "Entre 35,0 e 39,9",
+    "info": "Obesidade",
+    "obesity": "II (severa)"
+  },
+  {
+    "min": 40.0,
+    "max": 99.9,
+    "classification": "Acima de 40",
+    "info": "Obesidade",
+    "obesity": "III (mórbida)"
+  }
+]
